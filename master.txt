@@ -1,0 +1,1561 @@
+
+Page
+11
+of 65
+CCS334 BIGDATA ANALYTICS
+LABORATORY
+MASTER LABORATORY MANUAL
+B.Tech. Computer Science and Business Systems
+III Year / VI Semester
+Regulation -2021
+Prepared by
+Mrs.K.Usharani, AP
+Mrs.M.Shabanafathima, AP
+RAMCO INSTITUTE OF TECHNOLOGY
+(Approved by AICTE, New Delhi & Affiliated to Anna University, Chennai)
+Rajapalayam – 626 117
+CCS334 BIGDATA ANALYTICS
+LABORATORY
+MASTER LABORATORY MANUAL
+B.Tech. Computer Science and Business Systems
+III Year / VI Semester
+Regulation -2021
+RAMCO INSTITUTE OF TECHNOLOGY
+(Approved by AICTE, New Delhi & Affiliated to Anna University, Chennai)
+Rajapalayam – 626 117
+Prepared by Approved by
+Mrs.K.Usharani, AP Dr.M.Gomathy Nayagam
+Mrs.M.Shabanafathima, AP HOD/CSBS
+VISION AND MISSION OF THE INSTITUTE
+Vision of the Institute
+To evolve as an Institute of international repute in offering high-quality technical education,
+Research and extension programmes in order to create knowledgeable, professionally competent
+and skilled Engineers and Technologists capable of working in multi-disciplinary environment to
+cater to the societal needs.
+Mission of the Institute
+To accomplish its unique vision, the Institute has a far-reaching mission that aims:
+ To offer higher education in Engineering and Technology with highest level of quality,
+Professionalism and ethical standards
+ To equip the students with up-to-date knowledge in cutting-edge technologies,
+wisdom, creativity and passion for innovation, and life-long learning skills
+ To constantly motivate and involve the students and faculty members in the education
+process for continuously improving their performance to achieve excellence.
+DEPARTMENT OF COMPUTER SCIENCE AND BUSINESS SYSTEMS
+Vision
+To build competent, Industry-ready professionals to largely contribute to society, by imparting
+knowledge in the domain of Computer Science and Business Systems.
+Mission
+ Furnish/Facilitate the department with world-class computing infrastructure and
+modern teaching methodologies to produce highly proficient and globally
+competent Computer Science and Business Systems professionals.
+ Motivate the students and faculties in research and innovation and foster critical
+thinking with the moral values in the recent technologies of Computer Science and
+Business Systems.
+ Equip the students with the latest technologies to become ethically sound
+Computer Science and Business Systems professionals and entrepreneurs.
+Program Educational Objectives (PEOs)
+ Graduate will have a successful career in IT, Business Development, Business
+Analytics, and Intelligence, as well as technical and managerial responsibilities.
+ Graduate will have the ability to pursue higher studies and research or become an
+entrepreneur in the contemporary areas of Computer Science and Business Systems.
+ Graduate will exhibit socially committed productive leadership with high ethical
+standards and professionals making sound engineering and managerial decisions.
+PROGRAM OUTCOMES (POs)
+Engineering Graduates will be able to:
+o Engineering knowledge: Apply the knowledge of mathematics, science, engineering
+fundamentals, and an engineering specialization to the solution of complex
+engineering problems.
+o Problem analysis: Identify, formulate, review research literature, and analyze
+complex engineering problems reaching substantiated conclusions using first
+principles of mathematics, natural sciences, and engineering sciences.
+o Design/development of solutions: Design solutions for complex engineering
+problems and design system components or processes that meet the specified needs
+with appropriate consideration for the public health and safety, and the cultural,
+societal, and environmental considerations.
+o Conduct investigations of complex problems: Use research-based knowledge and
+research methods including design of experiments, analysis and interpretation of data,
+and synthesis of the information to provide valid conclusions.
+o Modern tool usage: Create, select, and apply appropriate techniques, resources, and
+modern engineering and IT tools including prediction and modeling to complex
+engineering activities with an understanding of the limitations.
+o The engineer and society: Apply reasoning informed by the contextual knowledge to
+assess societal, health, safety, legal and cultural issues and the consequent
+responsibilities relevant to the professional engineering practice.
+o Environment and sustainability: Understand the impact of the professional
+engineering solutions in societal and environmental contexts, and demonstrate the
+knowledge of, and need for sustainable development.
+o Ethics: Apply ethical principles and commit to professional ethics and responsibilities
+and norms of the engineering practice.
+o Individual and team work: Function effectively as an individual, and as a member
+or leader in diverse teams, and in multidisciplinary settings.
+o Communication: Communicate effectively on complex engineering activities with
+the engineering community and with society at large, such as, being able to
+comprehend and write effective reports and design documentation, make effective
+presentations, and give and receive clear instructions.
+o Project management and finance: Demonstrate knowledge and understanding of the
+engineering and management principles and apply these to ones own work, as a
+member and leader in a team, to manage projects and in multidisciplinary
+environments.
+o Life-long learning: Recognize the need for, and have the preparation and ability to
+engage in independent and life-long learning in the broadest context of technological
+change.
+Program Specific Outcomes (PSOs)
+After successful completion of the degree, the students will be able to:
+ Apply various cutting-edge technologies including Artificial Intelligence, Machine
+Learning/ Deep Learning, Cloud Computing, Cyber Security, and IOT to solve
+contemporary problems with knowledge of management principles.
+ Exhibit proficiency in Computation Statistics, Software development models, and
+business skills through various professional societies and continuous learning to
+provide solutions to real-world business problems.
+ Apply appreciable knowledge of management skills cultured through Industry
+Interactions and Real-time projects to practice as an ethical software engineer/
+researcher in the domain of Computer Science and Business Systems.
+INSTRUCTIONS TO STUDENTS
+ Students should wear Uniforms and Coats neatly during the lab session
+ Students should maintain silence during lab hours. Roaming around the lab
+during lab session is not permitted
+ Programs should be written in the manual and well prepared for the current
+exercise before coming to the session
+ Experiments should be completed within the Specified Lab Session
+ Before Every Session, Last Session lab exercise & record should be completed and
+get it verified by the faculty.
+ In the Record Note, Aim, Procedure &Result should bewritten on the right side.
+ Screenshots(Printed) should be placed on the left side.
+ Marks for each lab exercise is awarded as follows:
+Performance 25Marks
+Viva 10Marks
+Record 15Marks
+Total 50Marks
+RUBRICS
+Category Excellent Good Average Below
+Average Poor
+Performance
+Completion of
+Exercise /
+Experiment
+with own
+understanding
+Completion
+of Exercise /
+Experiment
+with help
+from manual /
+self-
+reference
+Completion of
+Exercise /
+Experiment
+with basic
+design that
+meets minimal
+functionality.
+Completion
+of Exercise /
+Experiment
+with help
+from faculty
+Completion
+of Exercise /
+Experiment
+without exact
+logic
+25.0 to >23.0
+Marks
+23.0 to >22.0
+Marks
+22.0 to >18.0
+Marks
+18.0 to >15.0
+Marks
+15.0 to >0
+Marks
+Viva voce
+Answering for
+100% of
+Questions
+Answering
+for
+80% of
+Questions
+Answering for
+60% of
+Questions
+Answering
+for
+40% of
+Questions
+Answering
+for
+20% of
+Question
+10.0 to >9.0
+Marks
+9.0 to >7.0
+Marks
+7.0 to >5.0
+Marks
+5.0 to >3.0
+Marks
+3.0 to >0
+Marks
+Record
+Completion of
+Record on or
+before the next
+Scheduled Lab
+Completion
+of Record
+before the
+next
+2nd
+Scheduled
+Lab
+Completion of
+Record on the
+next
+2nd Scheduled
+Lab
+Completion
+of Record
+after the next
+2nd
+Scheduled
+Lab
+Completion
+of Record on
+the next
+3rd
+Scheduled
+Lab
+15.0 to >14.0
+Marks
+14.0 to >12.0
+Marks
+12.0 to >10.0
+Marks
+10.0 to >6.0
+Marks
+6.0 to >0
+Marks
+Preface
+This laboratory manual is designed to provide students with a practical, hands-on
+understanding of Big Data Technologies, with a focus on Hadoop and its ecosystem
+components. Through a series of structured experiments, students will gain direct experience
+working with distributed storage and processing frameworks, developing an applied
+perspective on how Big Data systems operate in real-world environments.
+The manual covers foundational topics such as the installation and configuration of Hadoop in
+different operational modes, as well as the execution of core file management tasks. It further
+introduces the MapReduce programming model, enabling students to implement and run
+parallelized tasks like matrix multiplication and word count. Emphasis is also placed on key
+ecosystem tools such as Hive and HBase, allowing learners to understand how structured data
+is queried and managed within the Hadoop framework.
+In addition, students will gain valuable practice in integrating Hadoop with external data
+sources by importing and exporting data from various relational databases, thus reinforcing
+their understanding of interoperability within big data architectures.
+By engaging with these experiments, students will develop the technical competencies required
+to deploy, manage, and utilize Big Data technologies efficiently. The manual not only
+complements theoretical learning but also prepares students for real-world challenges in data-
+intensive computing environments.
+I extend my sincere thanks to Dr. M. Gomathy Nayagam, HOD/CSBS, for his continued
+support, insightful feedback, and expert guidance throughout the preparation of this manual.
+Their contributions have been instrumental in ensuring the educational relevance and quality
+of this work.
+CONTENTS PAGE
+NO.
+Syllabus i
+Course Objectives and Outcomes ii
+CO-Mapping iii
+Execution Environment iv
+Ex.
+No. Name of the Lab Exercises
+1.
+Downloading and installing Hadoop; Understanding different Hadoop
+modes. Startup scripts, Configuration files. 1
+2.
+Hadoop Implementation of file management tasks, such as Adding
+files and directories, retrieving files and Deleting files 21
+3. Implement of Matrix Multiplication with Hadoop Map Reduce 24
+4.
+Run a basic Word Count Map Reduce program to understand Map
+Reduce Paradigm. 30
+5. Installation of Hive along with practice examples. 35
+6. Installation of HBase, Installing thrift along with Practice examples 39
+7. Practice importing and exporting data from various databases. 44
+VIVA Questions 49
+i
+SYLLABUS
+CCS334 BIG DATA ANALYTICS L T P C
+2 0 2 3
+COURSE OBJECTIVES:
+ To understand big data.
+ To learn and use NoSQL big data management.
+ To learn mapreduce analytics using Hadoop and related tools.
+ To work with map reduce applications
+ To understand the usage of Hadoop related tools for Big Data Analytics
+LIST OF EXPERIMENTS:
+1. Downloading and installing Hadoop; Understanding different Hadoop modes. Startup
+scripts, Configuration files.
+2. Hadoop Implementation of file management tasks, such as Adding files and
+directories, retrieving files and Deleting files
+3. Implement of Matrix Multiplication with Hadoop Map Reduce
+4. Run a basic Word Count Map Reduce program to understand Map Reduce Paradigm.
+5. Installation of Hive along with practice examples.
+6. Installation of HBase, Installing thrift along with Practice examples
+7. Practice importing and exporting data from various databases.
+Software Requirements:
+Cassandra, Hadoop, Java, Pig, Hive and HBase.
+TOTAL:30 PERIODS
+TEXT BOOKS:
+1. Michael Minelli, Michelle Chambers, and AmbigaDhiraj, "Big Data, Big Analytics:
+Emerging Business Intelligence and Analytic Trends for Today's Businesses", Wiley,
+2013.
+2. Eric Sammer, "Hadoop Operations", O'Reilley, 2012.
+3. Sadalage, Pramod J. “NoSQL distilled”, 2013
+REFERENCES:
+1. E. Capriolo, D. Wampler, and J. Rutherglen, "Programming Hive", O'Reilley, 2012.
+2. Lars George, "HBase: The Definitive Guide", O'Reilley, 2011.
+3. Eben Hewitt, "Cassandra: The Definitive Guide", O'Reilley, 2010.
+4. Alan Gates, "Programming Pig", O'Reilley, 2011
+ii
+COURSE OBJECTIVES AND OUTCOMES
+COURSE OBJECTIVES:
+ To understand big data.
+ To learn and use NoSQL big data management.
+ To learn mapreduce analytics using Hadoop and related tools.
+ To work with map reduce applications
+ To understand the usage of Hadoop related tools for Big Data Analytics
+COURSE OUTCOMES:
+After the completion of this course, students will be able to:
+CO1: Describe big data and use cases from selected business domains.
+CO2: Explain NoSQL big data management.
+CO3: Install, configure, and run Hadoop and HDFS.
+CO4: Perform map-reduce analytics using Hadoop.
+CO5: Use Hadoop-related tools such as HBase, Cassandra, Pig, and Hive for big data
+analytics.
+iii
+CO MAPPING
+S.No. NAME OF THE LAB EXERCISES CO
+1. Downloading and installing Hadoop; Understanding different Hadoop
+modes. Startup scripts, Configuration files.
+3
+2. Hadoop Implementation of file management tasks, such as Adding
+files and directories, retrieving files and Deleting files
+3
+3. Implement of Matrix Multiplication with Hadoop Map Reduce 4
+4. Run a basic Word Count Map Reduce program to understand Map
+Reduce Paradigm. 4
+5. Installation of Hive along with practice examples. 5
+6. Installation of HBase, Installing thrift along with Practice examples 5
+7. Practice importing and exporting data from various databases. 5
+iv
+EXECUTION ENVIRONMENT
+1. Hardware:
+ CPU: Multi-core processor (4 or more cores recommended)
+ RAM: Minimum 8GB (16GB recommended for processing large datasets)
+ Storage: At least 100GB free disk space (to handle large data and log files)
+ Operating System: Linux (Ubuntu 20.04 LTS or higher preferred), macOS, or
+Windows with WSL2 enabled
+2. Software Requirements:
+ Java JDK (Version 8 or higher): Required for running Hadoop and HBase
+ Apache Hadoop (v3.3.6 or similar): For distributed storage and MapReduce
+ Apache Hive: For SQL-like querying of large datasets
+ Apache HBase: For NoSQL-style columnar storage
+ Apache Thrift: Interface definition and RPC tool for HBase
+ Apache Spark (optional but recommended): For advanced in-memory data
+processing
+ MySQL/PostgreSQL: For practice in data import/export between RDBMS and
+Hadoop ecosystem
+ Python (3.7+): For scripting and automation
+ Git: For version control and code collaboration
+ Text Editor/IDE: VS Code, IntelliJ IDEA, or any preferred IDE with Big Data
+plugin support
+3. Tools and Dependencies:
+ HDFS (Hadoop Distributed File System): Core component for storing data across
+distributed nodes
+ MapReduce Libraries: For developing and executing distributed processing tasks
+ Hive Metastore: To manage metadata for Hive tables
+ Sqoop or Spark JDBC connector: For data import/export operations
+ Thrift Interface for HBase: To interact with HBase from other applications
+ Docker (Optional): For containerized deployment of Hadoop clusters
+ Jupyter Notebook (Optional): For running Spark jobs in an interactive Python
+environment
+Why Ubuntu is Preferred:
+ Open Source Ecosystem: Ubuntu provides access to a vast range of open-source big
+data tools and packages, making it ideal for educational and research environments.
+ Developer-Friendly: With native support for Hadoop, Hive, HBase, and Spark,
+v
+Ubuntu minimizes configuration issues and improves compatibility with common
+data processing frameworks.
+ Advanced Package Management: Ubuntu’s package manager (apt) simplifies the
+installation and upgrade of critical components like Java, Python, Hadoop, and
+MySQL.
+ Community Support: A strong user and developer community ensures that students
+can find help, tutorials, and guides quickly when configuring or troubleshooting.
+ Containerization Ready: Ubuntu works seamlessly with Docker and Kubernetes,
+offering a flexible and scalable platform for advanced distributed Big Data
+deployments.
+1
+Ex.No.1 Downloading and installing Hadoop; Understanding different Hadoop modes.
+Startup scripts, Configuration files.
+AIM:
+To understand the process of setting up Hadoop, including downloading and installing the software,
+configuring it for different operating modes, and running Hadoop in a distributed environment.
+PREREQUISITE:
+Three Primary Hadoop Operational Modes:
+1. Standalone Mode
+2. Pseudo-Distributed Mode
+3. Fully Distributed Mode.
+Standalone Mode:
+ Standalone Mode is the simplest mode of Hadoop, where Hadoop runs on a single machine
+and doesn’t require a fully configured cluster. In this mode, Hadoop runs using the local file
+system (not HDFS), meaning data is not distributed across multiple nodes.
+ It is primarily used for development and debugging purposes when a developer doesn’t need
+to set up an entire cluster.
+How it works:
+ In Standalone Mode, all the Hadoop components (NameNode, DataNode, ResourceManager,
+and NodeManager) run on a single local machine.
+ Hadoop uses the local file system for storage, not HDFS. Therefore, no network
+communication is required, and it doesn't utilize the full capabilities of Hadoop’s distributed
+architecture.
+ The HDFS components are still present but they don’t perform actual distributed file storage.
+Instead, operations are done on the local file system.
+When to use:
+ Development and testing: When a developer is testing or developing MapReduce jobs and
+doesn’t need a cluster setup.
+ Debugging: It is useful for debugging or learning how Hadoop works without having to worry
+about setting up a complex infrastructure.
+Benefits:
+ Simplicity: Quick to set up and easy to test code on a single machine.
+ Cost-effective: Doesn’t require any network infrastructure or multiple machines.
+Drawbacks:
+ Limited scalability: Since it uses the local file system, it doesn’t scale across multiple
+machines and cannot handle large datasets.
+ No fault tolerance: Without HDFS, there is no replication or fault tolerance.
+Pseudo-Distributed Mode (Single Node Cluster)
+ In Pseudo-Distributed Mode, Hadoop runs on a single machine, but each Hadoop daemon
+(NameNode, DataNode, ResourceManager, NodeManager) runs as a separate process. This
+2
+setup mimics a multi-node cluster on a single machine but still uses HDFS for data storage.
+ This mode is ideal for testing Hadoop’s distributed file system (HDFS) and MapReduce jobs
+without needing multiple machines.
+How it works:
+ Hadoop operates in Pseudo-Distributed Mode by simulating a multi-node cluster. Each
+process runs as an individual Java process on the same machine.
+ Even though all components are running on a single machine, the system behaves as if they are
+distributed across multiple nodes.
+ HDFS is used for storage, which allows the data to be split across different “nodes” (in reality,
+different processes on the same machine). This allows for some level of testing for distributed
+file storage and data replication.
+When to use:
+ Testing and learning: It's useful for developers or system administrators who need to test
+distributed applications and simulate the behaviour of a Hadoop cluster without setting up a
+full multi-node cluster.
+ Single-node cluster simulation: When you want to explore Hadoop's distributed file system
+(HDFS) and processing capabilities without needing multiple physical machines.
+Benefits:
+ More realistic than Standalone Mode: Provides a better approximation of how Hadoop will
+work on a real cluster.
+ Simplicity: It’s still easy to set up on a single machine without needing multiple nodes.
+ Enables HDFS testing: Allows testing the Hadoop Distributed File System and understanding
+how data is split, stored, and replicated.
+Drawbacks:
+ Limited scalability: Despite mimicking a cluster, it still runs on a single machine and can’t
+scale to handle large datasets effectively.
+ Resource limitations: Because all processes are running on the same machine, it can quickly
+exhaust resources (CPU, memory, disk) for large-scale applications.
+Fully Distributed Mode (Multi Node Cluster)
+ Fully Distributed Mode is the most advanced and production-ready mode of Hadoop. In this
+mode, Hadoop runs on a real multi-node cluster, with each component of Hadoop (NameNode,
+DataNode, ResourceManager, NodeManager) running on different machines (nodes).
+ This mode uses HDFS for distributed file storage and ensures fault tolerance and scalability.
+How it works:
+ In Fully Distributed Mode, Hadoop is deployed across multiple machines (typically, one
+master node and several worker nodes). The cluster operates as a single unit, distributing data
+across the nodes and enabling parallel computation.
+ HDFS is responsible for storing data across the nodes, and each data block is replicated
+(typically three times) for fault tolerance.
+ ResourceManager and NodeManagers handle job scheduling and resource allocation across
+3
+the cluster. The NameNode and DataNodes store and retrieve data.
+When to use:
+ Production Environment: This is the mode to use for real-world applications with large-scale
+data processing needs.
+ Big Data Processing: When you need to process and store terabytes to petabytes of data and
+require the scalability, fault tolerance, and reliability of a distributed system.
+ High Availability: In cases where you require the system to be resilient to failures, since data
+is replicated across different nodes.
+Benefits:
+ Scalability: Can scale out horizontally by adding more nodes to the cluster, making it suitable
+for large-scale data processing.
+ Fault tolerance: Data replication and distributed computing ensure the system remains
+available even if some nodes fail.
+ Performance: Parallel processing across nodes can significantly speed up computation and
+data storage.
+Drawbacks:
+ Complex setup: Requires a multi-node environment and significant configuration effort.
+ Resource-intensive: Requires a considerable amount of hardware resources for setup,
+maintenance, and operation.
+Startup Scripts:
+Startup scripts are used to initiate the Hadoop daemons such as NameNode, DataNode,
+ResourceManager, and NodeManager.
+Lifecycle of a Hadoop Cluster:
+The lifecycle of a Hadoop cluster consists of multiple stages, from starting the Hadoop daemons to
+shutting them down. Each stage involves starting and stopping specific services, which enable the
+system to function properly for distributed storage and data processing. The lifecycle of the cluster is
+essential for proper management and troubleshooting.
+1. Cluster Startup (Initialization)
+2. Cluster Operation (Running Jobs)
+3. Cluster Shutdown (Stop)
+4. Recovery and Fault Tolerance
+1. Cluster Startup (Initialization)
+A. Starting Hadoop Daemons
+At the start of a Hadoop cluster, multiple daemons (or processes) need to be launched. These
+daemons run on various nodes in the cluster (master and worker nodes) to provide the required
+services for distributed computing.
+ Master Node:
+o NameNode: The NameNode is the central component in HDFS (Hadoop Distributed
+File System). It manages the metadata (information about where files are stored, block
+locations, replication, etc.). It must be started first.
+4
+o ResourceManager: This daemon is responsible for managing the cluster's resources
+(memory, CPU, etc.) and scheduling tasks for the MapReduce jobs. It handles job
+allocation and monitoring.
+ Worker Nodes:
+o DataNode: These nodes are responsible for storing the actual data in HDFS.
+DataNodes manage the storage of blocks and report block information to the
+NameNode periodically.
+o NodeManager: This daemon is responsible for managing the resources of each worker
+node and running tasks assigned by the ResourceManager.
+B. Starting HDFS
+When starting the Hadoop cluster, HDFS is initialized by starting the following:
+ NameNode: It loads the file system metadata into memory and begins tracking the state of
+HDFS. The NameNode also initializes the file system directory (based on the configuration,
+like the path where the HDFS is stored).
+ DataNodes: After the NameNode has started, each worker node's DataNode connects to the
+NameNode to report its status and block locations. The DataNodes also perform block
+replication based on the replication factor defined (typically 3).
+In the case of Pseudo-Distributed and Fully Distributed Modes, the NameNode and DataNodes are
+distributed across different machines, while in Standalone Mode, these services run on a single
+machine.
+C. Starting YARN (Yet Another Resource Negotiator)
+Hadoop uses YARN for resource management in MapReduce jobs. The YARN ResourceManager and
+NodeManager daemons need to be started:
+ ResourceManager: Once Hadoop starts up, the ResourceManager is responsible for allocating
+resources to the running jobs and tasks. It schedules jobs, tracks resource usage, and ensures
+tasks are distributed across the cluster.
+ NodeManager: Each worker node in the cluster runs a NodeManager that monitors resource
+availability and manages tasks assigned to that node by the ResourceManager.
+D. Cluster Health Check
+Once the daemons are up and running, you can check the health of the Hadoop cluster using the
+Hadoop Web UI (typically accessed via http://<namenode-host>:50070 for HDFS and
+http://<resourcemanager-host>:8088 for YARN). The Web UI will display information about the
+nodes, active tasks, available disk space, and any issues related to the cluster.
+2. Cluster Operation (Running Jobs)
+Once the Hadoop cluster is up and running, it enters the operational phase, during which MapReduce
+jobs, HDFS file operations, and other tasks are processed:
+A. Submitting a Job
+ A MapReduce job is submitted to the cluster, which involves the Client Application
+5
+submitting a job request to the ResourceManager.
+ The ResourceManager checks for available resources and assigns the job to NodeManagers
+on the worker nodes.
+B. Job Execution
+ The NodeManager on the chosen worker nodes starts Containers to run tasks (Map or
+Reduce tasks). These tasks run within the allocated containers and process data stored in
+HDFS.
+ Throughout the execution, DataNodes serve as the data source for the MapReduce tasks, and
+they provide data blocks as requested by the tasks.
+C. Data Replication
+ Data Replication: As data blocks are written to HDFS, the NameNode ensures that data
+blocks are replicated across different DataNodes (following the replication policy, usually a
+factor of 3). Replication ensures fault tolerance.
+ If any block is missing or a DataNode fails, the NameNode will automatically schedule
+replication of the block from another node that holds a copy.
+D. Monitoring the Job
+You can track the progress of running jobs using the ResourceManager Web UI or JobTracker
+Web UI (depending on your version of Hadoop). This will show details of running, completed, or
+failed jobs, and the status of each task.
+3. Cluster Shutdown (Stop)
+A. Stopping YARN and Resource Management Services
+When it's time to shut down the cluster, it is important to stop the services in an orderly fashion. This
+ensures that tasks are finished properly and resources are cleaned up correctly:
+ Stop NodeManagers: Stop the NodeManager services first. These services are responsible for
+managing resources and executing tasks on each worker node.
+ Stop ResourceManager: After stopping NodeManagers, the ResourceManager is stopped.
+The ResourceManager tracks which resources are available in the cluster, so stopping it allows
+the cluster to stop scheduling new jobs.
+B. Stopping HDFS
+After stopping YARN and resource management services, you need to shut down HDFS in a
+controlled manner:
+ Stop DataNodes: Begin by stopping the DataNode processes. As DataNodes are responsible
+for storing and replicating data blocks, stopping them properly ensures that no data is lost.
+ Stop NameNode: Finally, stop the NameNode. Stopping the NameNode will halt HDFS
+operations, including metadata management and block tracking.
+C. Shutting Down the Cluster
+6
+Once all the Hadoop services (NameNode, DataNode, ResourceManager, NodeManager) are stopped,
+the cluster is shut down. You can shut down the services using Hadoop's provided shutdown
+commands:
+ Stop HDFS: $ stop-dfs.sh
+ Stop YARN: $ stop-yarn.sh
+ Stop All Services: This command will stop both HDFS and YARN services in a single
+command. $ stop-all.sh
+D. Verifying Shutdown
+After the services are stopped, you can verify that all daemons are no longer running by checking the
+status via the Hadoop Web UI or by using commands like jps (Java processes). If everything is
+stopped, you will no longer see active processes like NameNode, DataNode, ResourceManager, or
+NodeManager.
+4. Recovery and Fault Tolerance
+While the Hadoop cluster is running, certain failure scenarios can occur, such as a DataNode or
+NodeManager failing. The NameNode and ResourceManager are responsible for managing failures:
+ DataNode Failure: If a DataNode goes down, the NameNode automatically replicates the data
+blocks stored on that DataNode to other available DataNodes to ensure data redundancy.
+ Task Failure: If a Map or Reduce task fails, YARN retries the task on other available nodes.
+These recovery mechanisms help ensure that Hadoop remains fault-tolerant and can continue
+operations without significant data loss or disruption.
+Configuration Files in Hadoop:
+Hadoop relies heavily on configuration files to define the settings for its various components. These
+files allow you to fine-tune the behavior of Hadoop's distributed file system (HDFS), resource
+management with YARN, and MapReduce job execution.
+ core-site.xml – Configuration for Hadoop Core (e.g., file system settings).
+ hdfs-site.xml – Configuration specific to the Hadoop Distributed File System (HDFS).
+ mapred-site.xml – Configuration for MapReduce jobs and execution settings.
+ yarn-site.xml – Configuration for YARN (Yet Another Resource Negotiator), which handles
+resource management and job scheduling.
+core-site.xml (Hadoop Core Configuration)
+The core-site.xml file defines configurations for core Hadoop services, primarily related to the file
+system (HDFS) and communication between the various Hadoop daemons.
+Key Configuration Parameters in core-site.xml
+7
+ fs.defaultFS: Specifies the URI of the file system Hadoop should interact with. For HDFS,
+this is usually set to the URI of the NameNode.
+Example:
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://namenode_host:8020</value>
+</property>
+ hadoop.tmp.dir: Specifies the temporary directory for Hadoop, used for storing data during
+job execution.
+Example:
+<property>
+<name>hadoop.tmp.dir</name>
+<value>/tmp/hadoop</value>
+</property>
+ Configuration for Different Modes:
+o Standalone Mode: Use Local File System as file:///
+Example:
+<property>
+<name>fs.defaultFS</name>
+<value>file:///</value>
+</property>
+o Pseudo-Distributed Mode: Here, the fs.defaultFS should point to the HDFS URI with
+the NameNode's hostname.
+Example:
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://localhost:8020</value>
+</property>
+o Fully Distributed Mode: In this mode, fs.defaultFS should be set to the NameNode
+URI of the cluster.
+Example:
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://namenode.example.com:8020</value>
+</property>
+hdfs-site.xml (Hadoop Distributed File System Configuration)
+The hdfs-site.xml file contains configurations specific to HDFS, including data storage, replication,
+and block management.
+Key Configuration Parameters in hdfs-site.xml:
+ dfs.replication: Defines the replication factor for HDFS data blocks. The default is typically
+3, meaning each block of data is replicated three times for fault tolerance.
+Example:
+<property>
+<name>dfs.replication</name>
+<value>3</value>
+</property>
+ dfs.namenode.name.dir: Specifies the directory on the NameNode machine to store the
+HDFS metadata.
+Example:
+<property>
+<name>dfs.namenode.name.dir</name>
+8
+<value>file:///tmp/hadoop/dfs/name</value>
+</property>
+ dfs.datanode.data.dir: Defines the directory on DataNodes for storing HDFS data blocks.
+Example:
+<property>
+<name>dfs.datanode.data.dir</name>
+<value>file:///tmp/hadoop/dfs/data</value>
+</property>
+ Configuration for Different Modes:
+o Standalone Mode: This mode does not require complex HDFS configurations because
+it does not use HDFS for storage. Data is stored on the local file system.
+Example:
+<property>
+<name>dfs.replication</name>
+<value>1</value>
+</property>
+o Pseudo-Distributed Mode: This mode uses HDFS, and each daemon runs as a
+separate process on the same machine. Set the directories to a location where HDFS
+can store data and the replication factor to 3.
+Example:
+<property>
+<name>dfs.replication</name>
+<value>1</value>
+</property>
+<property>
+<name>dfs.namenode.name.dir</name>
+<value>file:///tmp/hadoop/dfs/name</value>
+</property>
+<property>
+<name>dfs.datanode.data.dir</name>
+<value>file:///tmp/hadoop/dfs/data</value>
+</property>
+o Fully Distributed Mode: Here, the configuration should be adjusted to reflect the
+cluster setup (directories for each node, replication factor 3, etc.). Ensure directories on
+each node for HDFS storage.
+Example:
+<property>
+<name>dfs.replication</name>
+<value>3</value>
+</property>
+<property>
+<name>dfs.namenode.name.dir</name>
+<value>hdfs://namenode_host:8020</value>
+</property>
+<property>
+<name>dfs.datanode.data.dir</name>
+<value>hdfs://datanode_host:/tmp/hadoop/dfs/data</value>
+</property>
+mapred-site.xml (MapReduce Job Configuration)
+The mapred-site.xml file configures the settings for running MapReduce jobs, including job execution
+parameters, and MapReduce framework settings.
+Key Configuration Parameters in mapred-site.xml
+9
+ mapreduce.framework.name: Defines the execution framework for MapReduce jobs. It can
+either be set to yarn for YARN-based execution or local for local execution.
+Example:
+<property>
+<name>mapreduce.framework.name</name>
+<value>yarn</value>
+</property>
+ mapreduce.jobhistory.address: Specifies the host and port where the JobHistory Server will
+listen for job history information. This is useful for tracking completed jobs.
+Example:
+<property>
+<name>mapreduce.jobhistory.address</name>
+<value>jobhistoryserver:10020</value>
+</property>
+ Configuration for Different Modes:
+o Standalone Mode: The MapReduce jobs in standalone mode are executed locally, and
+the framework is set to local.
+Example:
+<property>
+<name>mapreduce.framework.name</name>
+<value>local</value>
+</property>
+o Pseudo-Distributed Mode: In pseudo-distributed mode, YARN will be used for
+resource management, and the MapReduce framework will be configured accordingly.
+Example:
+<property>
+<name>mapreduce.framework.name</name>
+<value>yarn</value>
+</property>
+o Fully Distributed Mode: In fully distributed mode, YARN is also the resource
+manager, and the framework is set to yarn.
+Example:
+<property>
+<name>mapreduce.framework.name</name>
+<value>yarn</value>
+</property>
+yarn-site.xml (YARN Configuration)
+ The yarn-site.xml file contains configuration parameters specific to YARN, the resource
+management system in Hadoop.
+Key Configuration Parameters in yarn-site.xml
+ yarn.resourcemanager.address: Specifies the address of the ResourceManager. This is the
+central authority that allocates resources to various jobs running on the cluster.
+Example:
+<property>
+<name>yarn.resourcemanager.address</name>
+<value>resourcemanager_host:8032</value>
+</property>
+ yarn.nodemanager.resource.memory-mb: Defines the total amount of memory available to
+the NodeManager for running tasks on a node.
+Example:
+<property>
+10
+<name>yarn.nodemanager.resource.memory-mb</name>
+<valuse>8192</value>
+</property>
+ yarn.nodemanager.aux-services: Specifies the auxiliary services (such as NodeManager)
+that YARN provides to assist in managing the cluster.
+Example:
+<property>
+<name>yarn.nodemanager.aux-services</name>
+<value>mapreduce.shuffle</value>
+</property>
+ Configuration for Different Modes:
+o Standalone Mode: Since YARN is not needed for standalone mode, the configuration
+for yarn-site.xml can be skipped or set to local resources if necessary.
+o Pseudo-Distributed Mode: In pseudo-distributed mode, the configuration should
+enable YARN services.
+Example:
+<property>
+<name>yarn.resourcemanager.address</name>
+<value>localhost:8032</value>
+</property>
+<property>
+<name>yarn.nodemanager.resource.memory-mb</name>
+<value>8192</value>
+</property>
+o Fully Distributed Mode: In fully distributed mode, the configuration must match the
+real multi-node cluster setup, with resource manager addresses, node manager
+resources, and other settings based on the cluster's resources.
+Example:
+<property>
+<name>yarn.resourcemanager.address</name>
+<value>resourcemanager.example.com:8032</value>
+</property>
+<property>
+<name>yarn.nodemanager.resource.memory-mb</name>
+<value>8192</value>
+</property>
+PROCEDURE:
+Step 1: sudo apt update
+Give passward and proceed
+Step 2 : Check for Java version using java -version
+11
+If java not available, then install using
+sudo apt install openjdk-11-jdk
+Step 3 : Add user hadoop and give password
+Sudo adduser Hadoop
+12
+ To give admin access to user, add user to sudoers file.Move
+to super user login using su
+ If authentication fails, update with new password using
+sudo passwd root
+ Root user will open
+ Vi editor opens visudo
+ Inside file, add user ‘hadoop’ using
+Hadoop ALL=(ALL:ALL)
+ Exit from root using exit
+13
+Step 4 : Login to user hadoop and Setup Passwordless ssh
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub>>~/.ssh/authorized_keys
+chmod 640 ~/.ssh/authorized_keys
+ssh localhost
+Give yes and proceed
+14
+if ssh refused to connect then follow the commands in the
+screenshot
+Step 5 : Start Installing Hadoop:
+ Copy Download Link of hadoop-3.3.6.tar.gz
+ In Terminal, wget
+15
+https://dlcdn.apache.org/hadoop/common/hadoop-
+3.3.6/hadoop-3.3.6.tar.gz
+ Unzip using tar xvzf hadoop-3.3.6.tar.gz
+ mv hadoop-3.3.6 hadoop
+ open bashrc file nano ~/.bashrc
+and type the following
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export HADOOP_HOME=/home/hadoop/hadoop
+export HADOOP_INSTALL=$HADOOP_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_HOME
+export HADOOP_COMMON_HOME=$HADOOP_HOME
+export HADOOP_HDFS_HOME=$HADOOP_HOME
+export HADOOP_YARN_HOME=$HADOOP_HOME
+export
+HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HO
+ME/lib/native
+export
+PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/
+bin
+export HADOOP_OPTS="-
+Djava.library.path=$HADOOP_HOME/lib/native"
+ To activate Environment Variablesource ~/.bashrc
+ To open hadoop environment variable file
+nano $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+ If you can’t find hadoop-env.sh then use
+find hadoop/ -name hadoop-env.sh
+ In hadoop.env file type the following, save and exit
+export JAVA_HOME=”usr/lib/jvm/java-11-openjdk-
+amd64
+ create directory for Name Node and Data Node
+mkdir -p ~hadoopdata/hdfs/namenode
+mkdir -p ~hadoopdata/hdfs/datanode
+16
+Step 6 : Setup Configuration Files
+ Edit core-site.xml and update with your system hostname
+nano $HADOOP_HOME/etc/hadoop/core-site.xml
+<configuration>
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://localhost:9000</value>
+</property>
+</configuration>
+ Edit in hdfs-site.xml
+nano $HADOOP_HOME/etc/hadoop/hdfs-site.xml
+<configuration>
+<property>
+<name>dfs.replication</name>
+<value>1</value>
+17
+</property>
+<property>
+<name>dfs.namenode.name.dir</name>
+<value>file:///hadoop/hadoopdata/hdfs/namenode</value>
+</property><property>
+<name>dfs.namenode.data.dir</name>
+<value>file://home/hadoop/hadoopdata/hdfs/datanode</value>
+</property>
+</configuration>
+ Edit in mapred-site.xml
+nano $HADOOP_HOME/etc/hadoop/mapred-site.xml
+<configuration>
+<property>
+<name>fs.defaultFS</name>
+<value>hdfs://rit-OptiPlex-3020:9000</value>
+</property>
+</configuration>
+ Edit in yarn-site.xml
+nano $HADOOP_HOME/etc/hadoop/yarn-site.xml
+<configuration>
+<property>
+<name>yarn.nodemanager.aux-services</name>
+<value>mapreduce_shuffle</value>
+</property>
+</configuration>
+Configuration Done
+Step 7 : start-dfs.sh
+18
+start-yarn.sh
+If Name node not getting started then follow the steps.
+ Check the capacity of open files and make it as unlimited
+unlimit –a
+unlimit –n 65536 #increase open files limit
+unlimit –u 65536 #increase max user processes limit
+ Check the availability of Namenode
+ls –ld /Hadoop/hadoopdata/hdfs/namenode
+if no such file or directory then do the following
+sudo mkdir –p /hadoop/hadoopdata/hdfs/namenode
+sudo chown –R hadoop:hadoop
+/hadoop/hadoopdata/hdfs/namenode
+sudo chown –R 755 /hadoop/hadoopdata/hdfs/namenode
+ Format the namenode
+hdfs namenode –format
+19
+Step 8 : start-all.sh
+jps # To check all nodes
+Step 9 : In browser, check whether Hadoop and Resource Manager is
+running
+http://hostname:9870
+http://hostname:8088
+20
+Result:
+Thus the Hadoop downloaded and installed. Also understood the different Hadoop modes, Startup
+scripts, Configuration files.
+21
+Ex.No.2 Hadoop Implementation of file management tasks, such as Adding files
+and directories, retrieving files and Deleting files
+AIM:
+To implement file management tasks such as adding files, retrieving files, and deleting
+files in Hadoop.
+PREREQUISITE:
+ HDFS should be running (check using jps to see if NameNode and DataNode are
+running).
+ Ensure thatthe user have the necessary permissions to perform file operations on
+HDFS.
+PROCEDURE:
+Step 1: Start all Nodes using start-all.shand check using jps
+Step 2: To list all folders inside hdfs hdfs dfs –ls /
+Step 3: To make folder csbs inside hdfs hdfs dfs –mkdir /csbs
+Step 4: To remove directory ‘csbs’ hdfs dfs –rmdir /csbs
+22
+Step 5: To create a file and type some text in it
+nano example.txt
+Step 6: Move file to folder
+hdfs dfs –put example.txt /existingfolder
+hdfs dfs –ls /existingfolder
+Step 7: To Retrieve the file content
+hdfs dfs –cat /existingfolder/example.txt
+Step 8: Delete the file
+hdfs dfs –rm /existingfolder/example.txt
+23
+Step 9: stop-all.sh
+RESULT:
+Thus the Hadoop Implementation of file management tasks, such as Adding files and
+directories, retrieving files and Deleting files were successfully implemented.
+24
+Ex.No.3 Implement of Matrix Multiplication with Hadoop Map Reduce
+AIM:
+To implement of Matrix Multiplication with Hadoop Map Reduce
+PREREQUISITE:
+ HDFS should be running (check using jps to see if NameNode and DataNode are
+running).
+ Java Development: Since MapReduce jobs are written in Java, knowledge of Java and the
+Hadoop API is needed.
+MapReduce Job Overview:
+The process of multiplying matrices in MapReduce can be broken down into the following
+steps:
+ Mapper: The Mapper reads the input matrices, identifies the corresponding elements, and
+creates intermediate key-value pairs.
+ Reducer: The Reducer performs the actual matrix multiplication by summing up the
+products for each corresponding row-column pair.
+PROCEDURE
+Step 1: Start all Nodes using start-all.shand check using jps
+Step 2: Set mapred class path to dfs
+Mapred classpath #Copy all
+Export CLASSPATH=” “ #paste the path
+Step 3: Create java file containing Mapper class, Reducer class and Driver class
+Step 4: Execute the java file using javac MatrixMultiplicationDriver.java
+Step 5: In Files, To create jar file
+ Create new folder(ex. FF)
+ Move all class files into that folder
+25
+Step 6: In Terminal,
+ Create jar file using jar –cvf FF.jar –C FF /.
+26
+Step 7: Create input file and put it into Input folder
+ nano Matrix.txt
+ hdfs dfs –put Matrix.txt /Input
+Step 8: Execute jar
+Hadoop jar FF.jar MatrixMultiplicationDriver /Input /Output
+Step 9: To list Contents of folder
+Hdfs dfs –ls /Output
+Step 10: To view the output
+hdfs dfs –cat /Output/partfilename
+27
+MatrixMultiplicationDriver.java
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+class MatrixMultiplication {
+// Mapper Class
+public static class MatrixMultiplicationMapper extends Mapper<Object, Text, Text,
+IntWritable> {
+private static final int A = 0; // Marker for Matrix A
+private static final int B = 1; // Marker for Matrix B
+@Override
+public void map(Object key, Text value, Context context) throws IOException,
+InterruptedException {
+String line = value.toString().trim();
+String[] elements = line.split("\\s+");
+// Check which matrix (A or B) we are processing
+if (key.toString().contains("A")) {
+// Matrix A: emit (i, (A, k, A[i,k])) for each element A[i,k]
+for (int k = 0; k < elements.length; k++) {
+context.write(new Text("A#" + key.toString().split("_")[0] + "," + k), new
+IntWritable(Integer.parseInt(elements[k])));
+28
+}
+} else if (key.toString().contains("B")) {
+// Matrix B: emit (j, (B, k, B[k,j])) for each element B[k,j]
+for (int j = 0; j < elements.length; j++) {
+context.write(new Text("B#" + j + "," + key.toString().split("_")[1]), new
+IntWritable(Integer.parseInt(elements[j])));
+}
+}
+}
+}
+// Reducer Class
+public static class MatrixMultiplicationReducer extends Reducer<Text, IntWritable, Text,
+IntWritable> {
+@Override
+public void reduce(Text key, Iterable<IntWritable> values, Context context) throws
+IOException, InterruptedException {
+List<Integer> A_values = new ArrayList<>();
+List<Integer> B_values = new ArrayList<>();
+// Classify the values into A and B
+for (IntWritable value : values) {
+String[] parts = key.toString().split("#");
+String matrix = parts[0]; // "A" or "B"
+if (matrix.equals("A")) {
+A_values.add(value.get());
+} else if (matrix.equals("B")) {
+B_values.add(value.get());
+}
+}
+// Matrix multiplication logic (sum of products of A and B)
+int sum = 0;
+for (int i = 0; i < A_values.size(); i++) {
+sum += A_values.get(i) * B_values.get(i); // Dot product of row i of A and column
+i of B
+}
+// Output the result in the form of (i, j) -> result
+context.write(key, new IntWritable(sum));
+}
+}
+// Driver Class
+public static class MatrixMultiplicationDriver {
+public static void main(String[] args) throws Exception {
+if (args.length != 2) {
+System.err.println("Usage: MatrixMultiplication <input_path><output_path>");
+System.exit(-1);
+}
+29
+// Create a new configuration object for Hadoop
+Configuration conf = new Configuration();
+// Create a new job instance
+Job job = Job.getInstance(conf, "Matrix Multiplication");
+// Set the jar containing the driver class
+job.setJarByClass(MatrixMultiplicationDriver.class);
+// Set the Mapper and Reducer classes
+job.setMapperClass(MatrixMultiplicationMapper.class);
+job.setReducerClass(MatrixMultiplicationReducer.class);
+// Set the output key and value types
+job.setOutputKeyClass(Text.class);
+job.setOutputValueClass(Text.class);
+// Set input and output paths
+FileInputFormat.addInputPath(job, new Path(args[0]));
+FileOutputFormat.setOutputPath(job, new Path(args[1]));
+}
+}
+Matrix.txt
+A 0 0 1
+A 0 1 2
+A 1 0 3
+A 1 1 4
+B 0 0 5
+B 0 1 6
+B 1 0 7
+B 1 1 8
+RESULT
+This implementation of Matrix Multiplication using Hadoop MapReduce shows how
+distributed computing can be leveraged to handle large matrix operations efficiently. The task
+is divided into manageable map tasks that handle matrix elements, followed by reducers that
+perform the necessary summation for the final result. This technique scales well when dealing
+with large matrices that cannot fit into a single machine’s memory.
+30
+Ex.No.4 Run a basic Word Count Map Reduce program to understand Map
+Reduce Paradigm.
+AIM:
+The goal of the program is to count the number of occurrences of each word in a given text
+file using MapReduce. The program will:
+1. Map Phase: Convert input text into a key-value pair, where each word is mapped
+to the value 1.
+2. Shuffle and Sort Phase: Group all key-value pairs by key (word).
+3. Reduce Phase: Aggregate the values for each key (sum up the occurrences of each
+word).
+PREREQUISITES:
+1. Hadoop Setup to run MapReduce programs
+Hadoop's official website: https://hadoop.apache.org/
+2. Java to run Hadoop MapReduce programs
+3. Text Input File: A plain text file that will be processed to count word occurrences.
+PROCEDURE:
+Step 1: Start all Nodes using start-all.sh and check usingjps
+Step 2: Set mapred class path to dfs
+mapredclasspath #copy all
+export CLASSPATH= “” #paste the path
+Step 3: Create java file containing Mapper class, Reducer class and Driver class
+Step 4: Executethe java file using javac
+Step 5: In Files, To create jar file
+ Create new folder (ex. WC1)
+ Move all class files into that folder
+Step 6: In Terminal
+ Create jar file using jar –cvf WC1.jar –C WC1 /.
+Step 7: Create input file and put it into Input folder
+ nano inputfile.txt
+ hdfsdfs –put inputfile.txt /Inputfolder
+31
+Step 8: Execute jar
+Hadoop jar WC1.jar WordCountDriver /inputfolder /outputfolder
+Step 9: To list contents of folder
+Hdfs dfs –ls /Outputfolder
+Step 10: To view the output
+Hdfsdfs –cat /outputfolder/partfilename
+32
+PROGRAM:
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.TextInputFormat;
+import org.apache.hadoop.mapred.TextOutputFormat;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.Mapper;
+import org.apache.hadoop.mapred.OutputCollector;
+import org.apache.hadoop.mapred.Reporter;
+import java.io.IOException;
+import java.util.StringTokenizer;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.OutputCollector;
+import org.apache.hadoop.mapred.Reporter;
+import org.apache.hadoop.mapred.Reducer;
+import org.apache.hadoop.io.LongWritable;
+import java.io.IOException;
+import java.util.Iterator;
+class WordCountMapper implements Mapper<LongWritable, Text, Text, IntWritable> {
+private final static IntWritable one = new IntWritable(1);
+private Text word = new Text();
+@Override
+public void configure(JobConf job) {
+// You can configure any settings you need here
+}
+@Override
+public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable>
+output, Reporter reporter) throws IOException {
+String line = value.toString();
+StringTokenizer tokenizer = new StringTokenizer(line);
+while (tokenizer.hasMoreTokens()) {
+word.set(tokenizer.nextToken());
+output.collect(word, one); // Emit each word with count 1
+}
+}
+@Override
+public void close() throws IOException {
+// Cleanup if necessary
+}
+}
+class WordCountReducer implements Reducer<Text, IntWritable, Text, IntWritable> {
+private IntWritable result = new IntWritable();
+@Override
+33
+public void configure(JobConf job) {
+// You can configure any settings you need here
+}
+@Override
+public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text,
+IntWritable> output, Reporter reporter) throws IOException {
+int sum = 0;
+while (values.hasNext()) {
+sum += values.next().get(); // Sum the occurrences for each word
+}
+result.set(sum);
+output.collect(key, result); // Emit the word and its total count
+}
+@Override
+public void close() throws IOException {
+// Cleanup if necessary
+}
+}
+public class WordCountDriver {
+public static void main(String[] args) throws Exception {
+// Check if correct number of arguments are passed
+if (args.length != 2) {
+System.err.println("Usage: WordCountDriver<input path><output path>");
+System.exit(-1);
+}
+// Configuration and Job setup
+Configuration conf = new Configuration();
+JobConf job = new JobConf(conf, WordCountDriver.class);
+job.setJobName("Word Count");
+// Set Mapper and Reducer class
+job.setMapperClass(WordCountMapper.class);
+job.setReducerClass(WordCountReducer.class);
+// Set output key/value types
+job.setOutputKeyClass(Text.class);
+job.setOutputValueClass(IntWritable.class);
+// Set input and output formats
+job.setInputFormat(TextInputFormat.class);
+job.setOutputFormat(TextOutputFormat.class);
+// Set input and output paths
+FileInputFormat.addInputPath(job, new Path(args[0]));
+FileOutputFormat.setOutputPath(job, new Path(args[1]));
+// Run the job
+JobClient.runJob(job);
+}
+}
+34
+RESULT:
+Thus the implementation of a basic Word Count Map Reduce program was executed
+successfully.
+35
+Ex.No.5 Installation of Hive along with practice examples.
+AIM:
+To install Hive, setup configuration files and practice HQL.
+PROCEDURE:
+Step 1: Sudo apt update
+Step 2: Sudo apt install openjdk-8-jdk
+Step 3: Sudo update-alternatives –config java
+Step 4: nano $HADOOP_HOME/etc/Hadoop/hadoop-env.sh
+update JAVA_HOME
+36
+Step 5: nano ~/.bashrc
+Type/check the following
+source ~/.bashrc
+Step 6:  Download Hive
+ wgethttps://apache.root.lu/hive/hive-3.1.2/apache-hive-3.1.2-
+bin.tar.gz
+ Unzip tar file : tar –xvzf apache-hive-3.1.2-bin.tar.gz
+Step 7:  start-all.sh
+ jps
+ hdfsdfs –mkdir /tmp
+ hdfsdfs –chmodg+w /tmp
+37
+ hdfsdfs –mkdir –p /user/hive/warehouse
+ hdfsdfs –chmodg+w /user/hive/warehouse
+ mkdir –p ~/metastore_db
+ chmod 777 ~/metastore_db
+Step 8: nano ~/.bashrc
+Type the following
+source ~/.bashrc
+Step 9: nano $HIVE_HOME/bin/hive-config.sh
+Type the following
+Step 10: cp $HIVE_HOME/conf/hive-default.xml.template hive-site.xml
+nano hive-site.xml
+ Check the property
+ Replace all ${system:java.io.tmpdir}/${system.user.name} with
+/tmp/hive
+Step 11: sudonano /etc/profile
+Type the following:
+source /etc/profile
+Step 12: rm –rfmetastore_db
+rm –f derby.log
+schematool –dbType derby –initSchema --verbose
+$HIVE_HOME/bin/schematool –dbType derby –initSchema
+38
+Step 13: Start Hive
+Practice Example
+Step 1: Create a Table
+CREATE TABLE students (
+id INT,
+name STRING,
+age INT
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
+Step 2: Load Data into the Table
+First, create a file named students.csv:
+1,John,21
+2,Alice,22
+3,Bob,20
+Step 3: Move it to HDFS:
+hdfsdfs -mkdir /user/hive/warehouse/input
+hdfsdfs -put students.csv /user/hive/warehouse/input/
+Step 4: Load data into Hive:
+LOAD DATA INPATH '/user/hive/warehouse/input/students.csv' INTO TABLE
+students;
+Step 5: Query the Table
+SELECT * FROM students;
+SELECT COUNT(*) FROM students;
+SELECT * FROM students WHERE age > 20;
+RESULT:
+Thus the Installation of Hive along with practice examples was executed successfully.
+39
+Ex.No.6 Installation of HBase, Installing thrift along with Practice examples
+AIM:
+To install Apache HBase and Apache Thrift, configure them, and run sample practice
+examples using Thrift for accessing HBase tables via a client program.
+PREREQUISITE:
+ Linux/Ubuntu system
+ Java 8 or 11 installed
+ Hadoop
+PROCEDURE:
+Step 1: Check for java version
+Java –version
+Step 2: Download Hbase
+ wgethttps://dlcdn.apache.org/hbase/2.5.11/hbase-2.5.11-bin.tar.gz
+ tar xvf hbase-2.5.11-bin.tar.gz
+40
+Step 3: nano hbase-env.sh
+Type the following
+Step 4: nano ~/.bashrc
+Type the following:
+source ~/.bashrc
+Step 5: nano hbase-site.xml
+Type the following:
+Step 6: cd \etc\
+nano hosts
+Ensure 127.0.0.1 in second line
+41
+Step 7: cd hbase-2.5.11\bin
+./start-hbase.sh
+jps
+./hbase shell
+42
+Practice Example
+Step 1: Create Table using
+create ‘tablename’,’column1’,’column2’
+Step 2: Insert Data using
+put ‘tablename’, ‘column1:key’,’value’
+Step 3: Scan the table using
+Scan ‘tablename’
+Step 4: Get and Modify data using the get and put commands
+43
+Step 5: Delete command
+RESULT:
+Thus the Installation of HBase, Installing thrift along with Practice exampleswas executed
+successfully.
+44
+Ex.No.7 Practice importing and exporting data from various databases.
+AIM:
+To practice importing and exporting data from MySQL to Hive using Apache Spark. This
+includes
+ Set up Spark with MySQL and Hive.
+ Read data from MySQL using Spark.
+ Write data into Hive tables.
+PREREQUISITE:
+1. Apache Spark (preferably 3.x)
+2. MySQL Server and a database with a sample table.
+3. Hive Metastore set up and configured.
+4. JDBC Driver for MySQL (e.g., mysql-connector-java-8.x.xx.jar)
+5. Spark and Hive properly integrated (use spark-shell)
+PROCEDURE:
+Step 1: Install Spark
+wget https://downloads.apache.org/spark/spark-3.4.1/spark-3.4.1-bin-
+hadoop3.tgz
+Unzip Spark
+tar -xvzf spark-3.4.1-bin-hadoop3.tgz
+Copy all files to spark for ease of use
+mv spark-3.4.1-bin-hadoop3 spark
+Step 2: Configure Spark
+nano ~/.bashrc
+In ~/.bashrc file check and include the following appropriate to your
+installation directory location:
+# Spark
+export SPARK_HOME=~/spark
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
+# Hadoop (modify if installed elsewhere)
+export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+# Hive (Installed and configured in Experiment 5)
+export HIVE_HOME=/usr/lib/hive
+export PATH=$PATH:$HIVE_HOME/bin
+Activate ~/.bashrc file:
+source ~/.bashrc
+Step 3: cp $SPARK_HOME/conf/spark-defaults.conf.template
+$SPARK_HOME/conf/spark-defaults.conf
+nano $SPARK_HOME/conf/spark-defaults.conf
+Add this line:
+spark.sql.catalogImplementation hive
+45
+Also copy Hive hive-site.xml into Spark conf directory:
+cp $HIVE_HOME/conf/hive-site.xml $SPARK_HOME/conf/
+Step 4: Before launching the Spark shell with Hive and JDBC support, install mysql
+and create a table in it to export.
+Go to root user using su, give password and proceed
+sudo apt install mysql-server
+Create user Sparkuser with password sparkpass. Create database sparkdb with
+the table Emp with data.
+CREATE USER 'sparkuser'@'localhost' IDENTIFIED BY 'sparkpass';
+CREATE DATABASE sparkdb;
+GRANT ALL PRIVILEGES ON sparkdb.* TO 'sparkuser'@'localhost';
+FLUSH PRIVILEGES;
+Use sparkdb;
+Create table sparkdb.Emp(Name varchar(15), salary int);
+Insert into sparkdb.Emp values(‘Alice’, 3000);
+Insert into sparkdb.Emp values(‘Bob’, 2000);
+46
+Then move to hadoop user using sudo hadoop
+Step 5: Configure spark with mysql
+Download Mysql connector Jar
+wget https://downloads.mysql.com/archives/get/p/3/file/mysql-connector-
+java-5.1.49.tar.gz
+(get link from here)
+Unzip tar file
+tar -xvzf mysql-connector-java-5.1.49.tar.gz
+cd spark
+Check whether jars folder present or not. If present then proceed with the
+following otherwise create a folder using mkdir $SPARK_HOME/jars
+cp mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar
+$SPARK_HOME/jars/
+47
+start-all.sh
+jps (check whether all nodes are present)
+Launch the Spark shell with Hive and JDBC support:
+spark-shell --jars $SPARK_HOME/jars/mysql-connector-java-5.1.49-bin.jar
+val df = spark.read.format("jdbc").option("url",
+"jdbc:mysql://localhost:3306/sparkdb").option("driver",
+"com.mysql.jdbc.Driver").option("dbtable", "Emp").option("user",
+"sparkuser").option("password", "sparkpass").load()
+df.show()
+48
+df.write.mode("overwrite").option("path","/user/hive/warehouse/
+testtable1").saveAsTable("testtable1")
+Quit from spark and Move to Hive using hive
+Check for imported database table.
+49
+RESULT:
+Thus the Practice of importing and exporting data from various databases was executed
+successfully.
+VIVA QUESTIONS
+1. What is Hadoop, and what problem does it solve?
+2. List and explain the three modes of Hadoop.
+3. What is the role of the NameNode and DataNode?
+4. What are the core configuration files in Hadoop?
+5. What is the difference between HDFS and a traditional file system?
+6. Explain how to check if Hadoop daemons are running.
+7. What is the function of hadoop-env.sh?
+8. How do you format the HDFS filesystem before use?
+9. What is the role of the start-dfs.sh and start-yarn.sh scripts?
+10. How do you stop Hadoop services?
+11. How do you copy a file from the local system to HDFS?
+12. What command is used to list files in HDFS?
+13. How do you retrieve a file from HDFS to your local system?
+14. What happens when you delete a file in HDFS?
+15. How does file replication work in HDFS?
+16. What are HDFS block sizes and why are they important?
+17. How do you create a directory in HDFS?
+18. Can two files in different directories have the same name in HDFS?
+19. How do you check the status or usage of the HDFS?
+50
+20. What is the purpose of the fsck command?
+21. What is the purpose of using MapReduce for matrix multiplication?
+22. Explain the mapper function in the matrix multiplication program.
+23. What does the reducer do in this context?
+24. How are key-value pairs used in this process?
+25. What are the limitations of MapReduce for matrix operations?
+26. How does the shuffle and sort phase work in MapReduce?
+27. What kind of input format is used in the matrix multiplication task?
+28. How do you submit a MapReduce job?
+29. Can you perform matrix multiplication in Hive or Spark?
+30. What are the advantages of doing this on a distributed system?
+31. Describe the working of the Word Count program in MapReduce.
+32. What is the role of the Context object in the mapper?
+33. What is an intermediate key in MapReduce?
+34. What does the combiner do, and when should it be used?
+35. How does MapReduce handle duplicate words?
+36. What is the output of the Word Count program?
+37. How do you run a custom MapReduce program on Hadoop?
+38. Can you run Word Count on a different dataset? How?
+39. What will happen if you remove the reducer step?
+40. How do you tune performance for MapReduce jobs?
+41. What is Hive and why is it used in Big Data?
+42. How is Hive different from traditional SQL databases?
+43. What is a Hive Metastore?
+44. Explain the difference between managed and external tables.
+45. How do you create a database in Hive?
+46. What are partitions and buckets in Hive?
+47. How do you load data into a Hive table?
+48. How do you write a Hive query to count records?
+49. Can you join two tables in Hive? Give an example.
+50. How does Hive handle schema-on-read?
+51
+51. What is HBase and how does it differ from Hive?
+52. Explain the architecture of HBase.
+53. What are column families in HBase?
+54. How does HBase store data on disk?
+55. What is a region and region server?
+56. What is Thrift in the context of HBase?
+57. How do you insert data into an HBase table?
+58. How do you retrieve a specific row using the HBase shell?
+59. What command is used to describe a table in HBase?
+60. How do you delete a column or row in HBase?
+61. How do you import data from MySQL to HDFS?
+62. What is JDBC, and why is it needed in Spark or Hadoop?
+63. How can you load relational data into Hive?
+64. Explain how Spark can read from and write to MySQL.
+65. What is Sqoop and how does it help with import/export?
+66. How do you handle data type mismatches between MySQL and Hive?
+67. What is the benefit of using Hive for analysis of relational data?
+68. What are some challenges with database-to-HDFS integration?
+69. How do you ensure data is not duplicated during import?
+70. Can you automate data migration processes with scripts?
